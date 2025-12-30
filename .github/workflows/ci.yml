@@ -11,7 +11,7 @@ jobs:
       - uses: actions/Checkout@v3
 
       - name: Run system info
-        uses: bash scrips/system_info.sh
+        uses: bash scripts/system_info.sh
 
       - name: List files
         run: ls -R .
